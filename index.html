@@ -1,249 +1,309 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Js</title>
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="images/myimage3.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Js</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="images/myImage.jpg">
 </head>
+
 <body>
-    <!-- Scroll to Top Button -->
-    <div class="scroll-button">
-        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  <!-- Scroll to Top Button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#">Js</a>
+      </div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#streak">Streak</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/sreekanth-j-developer/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/sree2694" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-                <a href="#">Js</a>
-            </div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#streak">Streak</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <div class="cancel-btn">
-                    <i class="fas fa-times"></i>
-                </div>
-            </ul>
-            <div class="media-icons">
-                <a href="https://www.linkedin.com/in/sreekanth-j-developer/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/sree2694" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-        <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </div>
-    </nav>
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two typewriter">I'm Sreekanth Jonnakuti</div>
+        <div class="text-four">From Hyderabad</div>
+      </div>
+      <div class="button">
+        <a href="mailto:sreekanth.j26@gmail.com" target="_blank"><button>Hire Me</button></a>
+      </div>
+    </div>
+  </section>
 
-     <!-- Home Section -->
-     <section class="home" id="home">
-        <div class="home-content">
-            <div class="text">
-                <div class="text-one">Hello,</div>
-                <div class="text-two typewriter">I'm Sreekanth Jonnakuti</div>
-                <div class="text-four">From Hyderabad</div>
-            </div>
-            <div class="button">
-                <a href="mailto:sreekanth.j26@gmail.com" target="_blank"><button>Hire Me</button></a>
-            </div>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="images/myImage.jpg" alt="Sreekanth Jonnakuti's Profile Image">
         </div>
-    </section>
+        <div class="right">
+          <p>
+            Hello, I am Sreekanth, a <b>Full Stack Developer</b> based in <b>Hyderabad</b>, currently working as a
+            <b>Web App Developer</b> at Protechky. I have 4 years of professional experience, including a tenure at RR
+            Software Solutions LLC, USA.<br> My core expertise lies in <b>ReactJS</b> and <b>Java</b>, and I have spent
+            the last 3 years working remotely, honing my skills in delivering high-quality solutions in dynamic,
+            collaborative environments. I am passionate about continuous learning and driving innovation in my projects.
+          </p>
 
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="content">
-            <div class="title"><span>About Me</span></div>
-            <div class="about-details">
-                <div class="left">
-                    <img src="images/myimage3.png" alt="Sreekanth Jonnakuti's Profile Image">
-                </div>
-                <div class="right">
-                    <p>
-                        Hello, I am Sreekanth, a <b>Full Stack Developer</b> based in <b>Hyderabad</b>, currently working as a <b>Web App Developer</b> at Protechky. I have 4 years of professional experience, including a tenure at RR Software Solutions LLC, USA. I hold a Master's in Computer Applications from JNTU, Hyderabad, completed in August 2019.<br> My core expertise lies in <b>ReactJS</b> and <b>Java</b>, and I have spent the last 3 years working remotely, honing my skills in delivering high-quality solutions in dynamic, collaborative environments. I am passionate about continuous learning and driving innovation in my projects.
-                    </p>
-                    
-                    <div class="button">
-                        <button>Download CV</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <div class="container">
-          <div class="title"><span>Skills</span></div>
-          <div class="skills-grid">
-            <div class="skill-box">
-              <span class="title"><img src="images/react.png" alt="click here" height="20px" width="20px" />ReactJS</span>
-              <div class="skill-bar">
-                <span class="skill-per React">
-                  <span class="tooltip">96%</span>
-                </span>
-              </div>
-            </div>
-            <div class="skill-box">
-              <span class="title"><img src="images/HTML.png" alt="click here" height="20px" width="20px" />HTML</span>
-              <div class="skill-bar">
-                <span class="skill-per html">
-                  <span class="tooltip">85%</span>
-                </span>
-              </div>
-            </div>
-            <div class="skill-box">
-              <span class="title"><img src="images/css.png" alt="click here" height="21px" width="21px" />CSS</span>
-              <div class="skill-bar">
-                <span class="skill-per css">
-                  <span class="tooltip">80%</span>
-                </span>
-              </div>
-            </div>
-            <div class="skill-box">
-              <span class="title"><img src="images/JS.png" alt="click here" height="20px" width="20px" />JavaScript</span>
-              <div class="skill-bar">
-                <span class="skill-per javascript">
-                  <span class="tooltip">90%</span>
-                </span>
-              </div>
-            </div>
-            <div class="skill-box">
-              <span class="title"><img src="images/java.png" alt="click here" height="20px" width="20px" />Java</span>
-              <div class="skill-bar">
-                <span class="skill-per Java">
-                  <span class="tooltip">96%</span>
-                </span>
-              </div>
-            </div>
-            <div class="skill-box">
-              <span class="title"><img src="images/sb.png" alt="click here" height="20px" width="20px" />Spring Boot</span>
-              <div class="skill-bar">
-                <span class="skill-per SpringBoot">
-                  <span class="tooltip">98.8%</span>
-                </span>
-              </div>
-            </div>
+          <div class="button">
+            <button>Download CV</button>
           </div>
         </div>
-      </section>
-      
+      </div>
+    </div>
+  </section>
 
-    <section class="certificates" id="certificates">
-      <div class="title"><span>Certificates</span></div>
-      <div class="gallery-image">
-        <div class="img-box">
-          <a href="Certificates/Webdeveloper.jpg" target="_blank"><img src="Certificates/Webdeveloper.jpg" alt="" /></a>
+  <!-- Education Section -->
+  <section class="education" id="Education">
+    <div class="title"><span>Education</span></div>
+    <div class="education-container">
+      <!-- Education Item -->
+      <div class="education-item">
+        <h3>Master's in Computer Applications</h3>
+        <p><b>JB Institute of Engineering & Technology, Hyderabad</b></p>
+        <span>October 2016 - August 2019</span>
+      </div>
+      <!-- Education Item -->
+      <div class="education-item">
+        <h3>Bachelor's in Computer Science</h3>
+        <p><b>Vijetha Degree College, Hyderabad</b></p>
+        <span>July 2012 - June 2016</span>
+      </div>
+      <!-- Education Item -->
+      <div class="education-item">
+        <h3>Intermediate (10+2)</h3>
+        <p><b>Narayana Junior College, Hyderabad</b></p>
+        <span>June 2010 - March 2012</span>
+      </div>
+      <!-- Education Item -->
+      <div class="education-item">
+        <h3>Secondary School Certificate (SSC)</h3>
+        <p><b>Bhashyam Public School, Hyderabad</b></p>
+        <span>June 2009 - March 2010</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skill Section -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="title"><span>Skills</span></div>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <span class="title"><img src="images/react.png" alt="click here" height="20px" width="20px" />ReactJS</span>
+          <div class="skill-bar">
+            <span class="skill-per React">
+              <span class="tooltip">96%</span>
+            </span>
+          </div>
         </div>
-        <div class="img-box">
-          <a href="Certificates/react.jpg" target="_blank"><img src="Certificates/react.jpg" alt="" /></a>
+        <div class="skill-box">
+          <span class="title"><img src="images/HTML.png" alt="click here" height="20px" width="20px" />HTML</span>
+          <div class="skill-bar">
+            <span class="skill-per html">
+              <span class="tooltip">85%</span>
+            </span>
+          </div>
         </div>
-        <div class="img-box">
-          <a href="Certificates/jsbasic.jpg" target="_blank"><img src="Certificates/jsbasic.jpg" alt="" /></a>
+        <div class="skill-box">
+          <span class="title"><img src="images/css.png" alt="click here" height="21px" width="21px" />CSS</span>
+          <div class="skill-bar">
+            <span class="skill-per css">
+              <span class="tooltip">80%</span>
+            </span>
+          </div>
         </div>
-        <div class="img-box">
-          <a href="Certificates/ai.png" target="_blank"><img src="Certificates/ai.png" alt="" /></a>
-        </div> 
-        <div class="img-box">
-          <a href="Certificates/ase.jpg" target="_blank"><img src="Certificates/ase.jpg" alt="" /></a>
+        <div class="skill-box">
+          <span class="title"><img src="images/JS.png" alt="click here" height="20px" width="20px" />JavaScript</span>
+          <div class="skill-bar">
+            <span class="skill-per javascript">
+              <span class="tooltip">90%</span>
+            </span>
+          </div>
         </div>
-        <div class="img-box">
-          <a href="Certificates/html.jpg" target="_blank"><img src="Certificates/html.jpg" alt="" /></a>
+        <div class="skill-box">
+          <span class="title"><img src="images/java.png" alt="click here" height="20px" width="20px" />Java</span>
+          <div class="skill-bar">
+            <span class="skill-per Java">
+              <span class="tooltip">96%</span>
+            </span>
+          </div>
         </div>
-        <!-- <div class="img-box">
+        <div class="skill-box">
+          <span class="title"><img src="images/sb.png" alt="click here" height="20px" width="20px" />Spring Boot</span>
+          <div class="skill-bar">
+            <span class="skill-per SpringBoot">
+              <span class="tooltip">98.8%</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Sections -->
+  <section class="certificates" id="certificates">
+    <div class="title"><span>Certificates</span></div>
+    <div class="gallery-image">
+      <div class="img-box">
+        <a href="Certificates/Webdeveloper.jpg" target="_blank"><img src="Certificates/Webdeveloper.jpg" alt="" /></a>
+      </div>
+      <div class="img-box">
+        <a href="Certificates/react.jpg" target="_blank"><img src="Certificates/react.jpg" alt="" /></a>
+      </div>
+      <div class="img-box">
+        <a href="Certificates/jsbasic.jpg" target="_blank"><img src="Certificates/jsbasic.jpg" alt="" /></a>
+      </div>
+      <div class="img-box">
+        <a href="Certificates/ai.png" target="_blank"><img src="Certificates/ai.png" alt="" /></a>
+      </div>
+      <div class="img-box">
+        <a href="Certificates/ase.jpg" target="_blank"><img src="Certificates/ase.jpg" alt="" /></a>
+      </div>
+      <div class="img-box">
+        <a href="Certificates/html.jpg" target="_blank"><img src="Certificates/html.jpg" alt="" /></a>
+      </div>
+      <!-- <div class="img-box">
           <a href="Certificates/Responsive Web design course.jpg" target="_blank"><img src="Certificates/Responsive Web design course.jpg" alt="" /></a>
         </div>
         <div class="img-box">
           <a href="Certificates/Ultimate C++ Programming Course.jpg" target="_blank"><img src="Certificates/Ultimate C++ Programming Course.jpg" alt="" /></a>
         </div> -->
+    </div>
+  </section>
+
+  <!-- Projects Sections -->
+  <section class="projects" id="projects">
+    <div class="title"><span>Projects</span></div>
+    <div class="hovring">
+      <div class="cntr">
+        <ul class="myUL">
+          <li><a href="http://www.rrsoftwaresolutions.com/" target="_blank">
+              <h3 class="hover-1">RR Software Solutions (own)</h3>
+            </a>
+            <img src="images/RR.jpg">
+          </li>
+        </ul>
       </div>
-    </section>
-
-    <section class="projects" id="projects">
-      <div class="title"><span>Projects</span></div>
-      <div class="hovring">
-        <div class="cntr">
-          <ul class="myUL">
-            <li><a href="http://www.rrsoftwaresolutions.com/" target="_blank"><h3 class="hover-1">RR Software Solutions (own)</h3></a>
-                <img src="images/RR.jpg">
-            </li>
-          </ul>
-        </div>
-          <div class="cntr">
-            <ul class="myUL">
-              <li><a href="#" target="_blank"><h3 class="hover-1">EDI-X12</h3></a>
-                <img src="images/X12.jpg">
-              </li>
-            </ul>
-          </div>
-          <div class="cntr">
-            <ul class="myUL">
-              <li><a href="#" target="_blank"><h3 class="hover-1">Online Shopping</h3></a>
-                <img src="images/OS.jpg">
-              </li>
-            </ul>
-        </div>
-        <div class="cntr">
-          <ul class="myUL">
-            <li><a href="#" target="_blank"><h3 class="hover-1">My Portfolio</h3></a>
-              <img src="images/portfolio.jpg">
-            </li>
-          </ul>
-        </div>
+      <div class="cntr">
+        <ul class="myUL">
+          <li><a href="#" target="_blank">
+              <h3 class="hover-1">EDI-X12</h3>
+            </a>
+            <img src="images/X12.jpg">
+          </li>
+        </ul>
       </div>
-    </section>
-
-    <section class="streak" id="streak">
-      <div class="title"><span>Practice & Streak</span></div>
-        <div class="cntr">
-          <ul class="myUL">
-            <li><a href="https://www.freecodecamp.org/CodeReacher" target="_blank"><h3 class="hover-1">FreeCodeCamp</h3></a>
-            </li>
-          </ul>
-        </div>
-          <div class="cntr">
-            <ul class="myUL">
-              <li><a href="https://www.hackerrank.com/profile/sreekanth_j26" target="_blank"><h3 class="hover-1">Hackerrank</h3></a>
-              </li>
-            </ul>
-          </div>
-          <div class="cntr">
-            <ul class="myUL">
-              <li><a href="https://www.hackerearth.com/@sreekanth.j26" target="_blank"><h3 class="hover-1">hackerearth</h3></a>
-              </li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="content">
-        <div class="title"><span>Contact Me</span></div>
-        <div class="text">
-          <div class="topic">Have Any Project?</div>
-          <p>I would be delighted to communicate with you if you have any ideas or work in mind and are searching for a collaborating partner.
-            <br>
-            So let's start a discussion and look at how we may work together to produce something extraordinary. I'm excited to have the chance to work with you!
-          </p>
-          <div class="button">
-            <a href="#" target="_blank"><button>Let's Chat</button></a>
-          </div>
-        </div>
+      <div class="cntr">
+        <ul class="myUL">
+          <li><a href="#" target="_blank">
+              <h3 class="hover-1">Online Shopping</h3>
+            </a>
+            <img src="images/OS.jpg">
+          </li>
+        </ul>
       </div>
-    </section>
+      <div class="cntr">
+        <ul class="myUL">
+          <li><a href="#" target="_blank">
+              <h3 class="hover-1">My Portfolio</h3>
+            </a>
+            <img src="images/portfolio.jpg">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <footer>
+  <!-- Streaks Sections -->
+  <section class="streak" id="streak">
+    <div class="title"><span>Practice & Streak</span></div>
+    <div class="cntr">
+      <ul class="myUL">
+        <li><a href="https://www.freecodecamp.org/CodeReacher" target="_blank">
+            <h3 class="hover-1">FreeCodeCamp</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="cntr">
+      <ul class="myUL">
+        <li><a href="https://www.hackerrank.com/profile/sreekanth_j26" target="_blank">
+            <h3 class="hover-1">Hackerrank</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="cntr">
+      <ul class="myUL">
+        <li><a href="https://www.hackerearth.com/@sreekanth.j26" target="_blank">
+            <h3 class="hover-1">hackerearth</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
       <div class="text">
-        <span>Created By <a href="https://github.com/sree2694">Sreekanth J</a></span>
+        <div class="topic">Have Any Project?</div>
+        <p>I would be delighted to communicate with you if you have any ideas or work in mind and are searching for a
+          collaborating partner.
+          <br>
+          So let's start a discussion and look at how we may work together to produce something extraordinary. I'm
+          excited to have the chance to work with you!
+        </p>
+        <div class="button">
+          <a href="#" target="_blank"><button>Let's Chat</button></a>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-  </body>
+  <!-- footer Section -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="https://github.com/sree2694">Sreekanth J</a></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
