@@ -59,3 +59,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// WhatsApp Chat Button Functionality
+function goToWhatsApp() {
+  const phoneNumber = "919618502694"; // Replace with your WhatsApp number
+  const message = "Hello, I'd like to know more about your services."; // Optional message
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+}
