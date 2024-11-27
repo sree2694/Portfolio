@@ -67,7 +67,7 @@ Simply open the `index.html` file in your preferred browser to view the website 
 ## Live Demo
 
 Check out the live version of my portfolio here:
-[Portfolio Live Demo](https://sree2694.github.io/portfolio/)
+[Portfolio Live Demo](https://sree2694.github.io/Portfolio)
 
 ---
 
