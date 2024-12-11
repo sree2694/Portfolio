@@ -75,7 +75,6 @@ Check out the live version of my portfolio here:
 
 If you have any questions, feedback, or collaboration ideas, feel free to reach out to me:
 
-- **Email**: [sreekanth.j26@example.com]
 - **GitHub**: [github.com/sree2694]
 
 Thank you for visiting my portfolio!
